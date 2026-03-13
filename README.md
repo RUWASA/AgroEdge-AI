@@ -1,10 +1,13 @@
 __🌱 Crop–Weed Detection using Knowledge Distillation__
+
 **Overview**
+
 This project implements a lightweight deep learning model for crop–weed detection in agricultural fields. The model uses knowledge distillation to transfer knowledge from a larger teacher model to a smaller student model, improving detection performance while keeping the model lightweight.
 
 The system is evaluated using the CropWeed dataset and compared with multiple object detection models.
 
 __Models Compared__
+
 YOLOv11-Nano
 
 YOLOv8-Nano
@@ -28,6 +31,7 @@ PP-YOLO-Tiny
 __📂 Project Structure__
 
 Crop-Weed-Detection
+
 │
 ├── dataset
 │   ├── images
@@ -50,7 +54,9 @@ Crop-Weed-Detection
 └── README.md
 
 __Results__
+
 The proposed KD model achieved the best performance:
+
 | Model                 | mAP@0.5  | Precision | Recall   | F1 Score |
 | --------------------- | -------- | --------- | -------- | -------- |
 | YOLOv11-Nano          | 0.83     | 0.86      | 0.71     | 0.77     |
@@ -66,6 +72,7 @@ The proposed KD model achieved the best performance:
 | **Proposed KD Model** | **0.86** | **0.83**  | **0.78** | **0.80** |
 
 __Applications__
+
 Precision agriculture
 
 Weed detection
